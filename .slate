@@ -1,0 +1,22 @@
+# Copy this file into ~/.slate and modify to your heart's content
+# Set PATH_TO_AC_SLATER to wherever you cloned ac-slater
+alias ac-slater-path PATH_TO_AC_SLATER
+
+# Aliases for key modifiers
+# https://github.com/mattr-/slate#allowed-keys
+alias ac-slater-key-modifier        shift;ctrl
+alias ac-slater-key-modifier-super  shift;ctrl;alt
+
+# Pre-AC custom config goes here, ex:
+# config keyboardLayout colemak
+
+# Bring AC Slater to the party
+# Comment out any parts that you don't want
+source ${ac-slater-path}/config.slate
+source ${ac-slater-path}/aliases.slate
+source ${ac-slater-path}/bindings.slate
+# Colemak user? Gotcha covered:
+# source ${ac-slater-path}/bindings-colemak.slate
+
+# Post-AC custom config here, ex:
+# bind 4:ctrl hint ARSTDHNEIO
