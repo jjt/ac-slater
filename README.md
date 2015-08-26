@@ -1,5 +1,5 @@
 # ac-slater
-A hunky default setup for the keyboard-driven, tiling window manager [Slate](https://github.com/mattr-/slate), based on https://github.com/n1rvana/dot-slate.
+A hunky, extensible default setup for the keyboard-driven, tiling window manager [Slate](https://github.com/mattr-/slate), based on https://github.com/n1rvana/dot-slate.
 
 Throw windows around with ease to make tiled layouts such as:
 
@@ -130,4 +130,30 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
         |  1/2  BL  |  1/3  BL  |  1/3  BM  |  1/3  BR  |  1/2  BR  |
         |           |           |           |           |           |
         +-----------+-----------+-----------+-----------+-----------+
+```
+
+### Extending
+
+Relax, preppy. AC Slater is broken up into separate parts so you can extend it. Here's the default `.slate` file:
+
+```shell
+# Set PATH_TO_AC_SLATER to wherever you cloned ac-slater
+alias ac-slater-path PATH_TO_AC_SLATER
+
+# Aliases for key modifiers
+# https://github.com/mattr-/slate#allowed-keys
+alias ac-slater-key-modifier        shift;ctrl
+alias ac-slater-key-modifier-super  shift;ctrl;alt
+
+# Pre-AC custom config goes here, ex:
+# config keyboardLayout colemak
+
+# Bring AC Slater to the party
+# Comment out any parts that you don't want
+source ${ac-slater-path}/config.slate
+source ${ac-slater-path}/layout.slate
+source ${ac-slater-path}/bindings.slate
+
+# Post-AC custom config here, ex:
+# bind 4:ctrl hint ARSTDHNEIO
 ```
