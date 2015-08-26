@@ -1,5 +1,5 @@
 # ac-slater
-A sensible setup for [Slate](https://github.com/mattr-/slate), based on https://github.com/n1rvana/dot-slate.
+A hunky default setup for the tiling window manager [Slate](https://github.com/mattr-/slate), based on https://github.com/n1rvana/dot-slate.
 
 ## Installation
 
@@ -10,7 +10,7 @@ Install Slate as per [instructions](https://github.com/mattr-/slate#installing-s
     > # edit ~/.slate to your liking, set the path to ac-slater
     > # restart Slate and reload config
 
-## Layout Bindings
+## Layout
 
 Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/1 (full height) or 1/2.
 
@@ -21,9 +21,9 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
 `L`: left (full height)  
 `M`: middle (full height)  
 `R`: right (full height)  
-`UL`: upper left  
-`UM`: upper middle  
-`UR`: upper right  
+`TL`: top left  
+`TM`: top middle  
+`TR`: top right  
 `BL`: bottom left  
 `BM`: bottom middle  
 `BR`: bottom right  
@@ -32,26 +32,26 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
 ```
 +-----------+
 |           |
-|  2/3  UL  |  <----- layout for super key modifier (default: ctrl+alt+shift)
+|  2/3  TL  |  <----- layout for super key modifier (default: ctrl+alt+shift)
 |           |
 |     J     |  <----- base key
 |           |
-|  1/2  UL  |  <----- layout for standard key modifier (default: ctrl+shift)
+|  1/2  TL  |  <----- layout for standard key modifier (default: ctrl+shift)
 |           |
 +---+-------+
 ```
 `ctrl+shift+J` would make the current window half width, placed in the upper left corner  
 `ctrl+alt+shift+J` would make the current window 2/3s width, placed in the upper left corner
 
-### QWERTY
+### QWERTY Layout
 ```
 +-----------+-----------+-----------+-----------+-----------+
 |           |           |           |           |           |
-|  2/3  UL  |           |           |           |  2/3  UR  |
+|  2/3  TL  |           |           |           |  2/3  TR  |
 |           |           |           |           |           |
 |     Y     |     U     |     I     |     O     |     P     |
 |           |           |           |           |           |
-|  1/2  UL  |  1/3  UL  |  1/3  UM  |  1/3  UR  |  1/2  UR  |
+|  1/2  TL  |  1/3  TL  |  1/3  TM  |  1/3  TR  |  1/2  TR  |
 |           |           |           |           |           |
 +---+-------+---+-------+---+-------+---+-------+---+-------+---+
     |           |           |           |           |           |
@@ -71,15 +71,15 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
         |           |           |           |           |           |
         +-----------+-----------+-----------+-----------+-----------+
 ```
-### Colemak
+### Colemak Layout
 ```
 +-----------+-----------+-----------+-----------+-----------+
 |           |           |           |           |           |
-|  2/3  UL  |           |           |           |  2/3  UR  |
+|  2/3  TL  |           |           |           |  2/3  TR  |
 |           |           |           |           |           |
 |     J     |     L     |     U     |     Y     |     ;     |
 |           |           |           |           |           |
-|  1/2  UL  |  1/3  UL  |  1/3  UM  |  1/3  UR  |  1/2  UR  |
+|  1/2  TL  |  1/3  TL  |  1/3  TM  |  1/3  TR  |  1/2  TR  |
 |           |           |           |           |           |
 +---+-------+---+-------+---+-------+---+-------+---+-------+---+
     |           |           |           |           |           |

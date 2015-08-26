@@ -1,30 +1,30 @@
 # Colemak bindings
 bind f:${ac-slater-key-modifier} ${resize-full}
 
-bind h:${ac-slater-key-modifier} ${half-left}
-bind o:${ac-slater-key-modifier} ${half-right}
+bind h:${ac-slater-key-modifier} ${1-2-L}
+bind o:${ac-slater-key-modifier} ${1-2-R}
 
-bind j:${ac-slater-key-modifier} ${quarter-upper-left}
-bind ;:${ac-slater-key-modifier} ${quarter-upper-right}
-bind k:${ac-slater-key-modifier} ${quarter-lower-left}
-bind /:${ac-slater-key-modifier} ${quarter-lower-right}
+bind j:${ac-slater-key-modifier} ${1-2-TL}
+bind ;:${ac-slater-key-modifier} ${1-2-TR}
+bind k:${ac-slater-key-modifier} ${1-2-BL}
+bind /:${ac-slater-key-modifier} ${1-2-BR}
 
-bind h:${ac-slater-key-modifier-super} ${trio-two-col-left}
-bind o:${ac-slater-key-modifier-super} ${trio-two-col-right}
+bind h:${ac-slater-key-modifier-super} ${2-3-L}
+bind o:${ac-slater-key-modifier-super} ${2-3-R}
 
-bind j:${ac-slater-key-modifier-super} ${hex-two-col-upper-left}
-bind ;:${ac-slater-key-modifier-super} ${hex-two-col-upper-right}
-bind k:${ac-slater-key-modifier-super} ${hex-two-col-lower-left}
-bind /:${ac-slater-key-modifier-super} ${hex-two-col-lower-right}
+bind j:${ac-slater-key-modifier-super} ${2-3-TL}
+bind ;:${ac-slater-key-modifier-super} ${2-3-TR}
+bind k:${ac-slater-key-modifier-super} ${2-3-BL}
+bind /:${ac-slater-key-modifier-super} ${2-3-BR}
 
-bind l:${ac-slater-key-modifier} ${hex-upper-left}
-bind u:${ac-slater-key-modifier} ${hex-upper-middle}
-bind y:${ac-slater-key-modifier} ${hex-upper-right}
+bind l:${ac-slater-key-modifier} ${1-3-TL}
+bind u:${ac-slater-key-modifier} ${1-3-TM}
+bind y:${ac-slater-key-modifier} ${1-3-TR}
 
-bind n:${ac-slater-key-modifier} ${trio-left}
-bind e:${ac-slater-key-modifier} ${trio-middle}
-bind i:${ac-slater-key-modifier} ${trio-right}
+bind n:${ac-slater-key-modifier} ${1-3-L}
+bind e:${ac-slater-key-modifier} ${1-3-M}
+bind i:${ac-slater-key-modifier} ${1-3-R}
 
-bind m:${ac-slater-key-modifier} ${hex-lower-left}
-bind ,:${ac-slater-key-modifier} ${hex-lower-middle}
-bind .:${ac-slater-key-modifier} ${hex-lower-right}
+bind m:${ac-slater-key-modifier} ${1-3-BL}
+bind ,:${ac-slater-key-modifier} ${1-3-BM}
+bind .:${ac-slater-key-modifier} ${1-3-BR}

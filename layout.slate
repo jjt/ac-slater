@@ -1,0 +1,39 @@
+alias resize-full   corner top-left   resize:screenSizeX;screenSizeY
+
+# Two columns
+alias resize-half-vertical   resize:screenSizeX/2;screenSizeY
+alias resize-half-horizontal resize:screenSizeX;screenSizeY/2
+alias 1-2-L     corner top-left     ${resize-half-vertical}
+alias 1-2-R    corner top-right    ${resize-half-vertical}
+alias 1-1-T      corner top-left     ${resize-half-horizontal}
+alias 1-1-B   corner bottom-left  ${resize-half-horizontal}
+
+alias resize-quarter          resize:screenSizeX/2;screenSizeY/2
+alias 1-2-TL      corner top-left     ${resize-quarter}
+alias 1-2-TR     corner top-right    ${resize-quarter}
+alias 1-2-BL      corner bottom-left  ${resize-quarter}
+alias 1-2-BR     corner bottom-right ${resize-quarter}
+
+# Three columns
+alias resize-trio			resize:screenSizeX/3;screenSizeY
+alias 1-3-L       corner top-left     ${resize-trio}
+alias 1-3-M     move screenOriginX+screenSizeX/3;screenOriginY  screenSizeX/3;screenSizeY
+alias 1-3-R      corner top-right    ${resize-trio}
+
+alias resize-trio-two-col  resize:2*screenSizeX/3;screenSizeY
+alias 2-3-L   corner top-left  ${resize-trio-two-col}
+alias 2-3-R  corner top-right ${resize-trio-two-col}
+
+alias resize-hex			     resize:screenSizeX/3;screenSizeY/2
+alias 1-3-TL       corner top-left     ${resize-hex}
+alias 1-3-TM     move screenOriginX+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY/2
+alias 1-3-TR      corner top-right    ${resize-hex}
+alias 1-3-BL       corner bottom-left   ${resize-hex}
+alias 1-3-BM     move screenOriginX+screenSizeX/3;screenOriginY+screenSizeY/2 screenSizeX/3;screenSizeY/2
+alias 1-3-BR      corner bottom-right ${resize-hex}
+
+alias resize-hex-two-col       resize:2*screenSizeX/3;screenSizeY/2
+alias 2-3-TL   corner top-left ${resize-hex-two-col}
+alias 2-3-TR  corner top-right ${resize-hex-two-col}
+alias 2-3-BL   corner bottom-left ${resize-hex-two-col}
+alias 2-3-BR  corner bottom-right ${resize-hex-two-col}
