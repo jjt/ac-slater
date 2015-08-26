@@ -1,0 +1,5 @@
+# Sets up screen and layout sizes based on a non-hidden dock
+alias adjOriginX screenOriginX
+alias adjSizeX screenSizeX
+alias adjOriginY screenOriginY
+alias adjSizeY screenSizeY

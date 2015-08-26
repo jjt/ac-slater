@@ -1,0 +1,6 @@
+# Sets up screen and layout sizes based on a hidden dock to the bottom
+# Hidden dock is 4px on Yosemite
+alias adjOriginX screenOriginX
+alias adjSizeX screenSizeX
+alias adjOriginY screenOriginY
+alias adjSizeY screenSizeY+4

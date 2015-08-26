@@ -1,0 +1,53 @@
+# Width
+alias w1   (${adjSizeX})*1/12
+alias w2   (${adjSizeX})*2/12
+alias w3   (${adjSizeX})*3/12
+alias w4   (${adjSizeX})*4/12
+alias w5   (${adjSizeX})*5/12
+alias w6   (${adjSizeX})*6/12
+alias w7   (${adjSizeX})*7/12
+alias w8   (${adjSizeX})*8/12
+alias w9   (${adjSizeX})*9/12
+alias w10  (${adjSizeX})*10/12
+alias w11  (${adjSizeX})*11/12
+alias w12  (${adjSizeX})*12/12
+
+# Height
+alias h1   (${adjSizeY})*1/12
+alias h2   (${adjSizeY})*2/12
+alias h3   (${adjSizeY})*3/12
+alias h4   (${adjSizeY})*4/12
+alias h5   (${adjSizeY})*5/12
+alias h6   (${adjSizeY})*6/12
+alias h7   (${adjSizeY})*7/12
+alias h8   (${adjSizeY})*8/12
+alias h9   (${adjSizeY})*9/12
+alias h10  (${adjSizeY})*10/12
+alias h11  (${adjSizeY})*11/12
+alias h12  (${adjSizeY})*12/12
+
+# X position
+alias x0    ${adjOriginX}
+alias x1    ${w1}+${adjOriginX}
+alias x2    ${w2}+${adjOriginX}
+alias x3    ${w3}+${adjOriginX}
+alias x4    ${w4}+${adjOriginX}
+alias x5    ${w5}+${adjOriginX}
+alias x6    ${w6}+${adjOriginX}
+alias x7    ${w7}+${adjOriginX}
+alias x8    ${w8}+${adjOriginX}
+alias x9    ${w9}+${adjOriginX}
+alias x10   ${w10}+${adjOriginX}
+
+# Y position
+alias y0    ${adjOriginY}
+alias y1    ${h1}+${adjOriginY}
+alias y2    ${h2}+${adjOriginY}
+alias y3    ${h3}+${adjOriginY}
+alias y4    ${h4}+${adjOriginY}
+alias y5    ${h5}+${adjOriginY}
+alias y6    ${h6}+${adjOriginY}
+alias y7    ${h7}+${adjOriginY}
+alias y8    ${h8}+${adjOriginY}
+alias y9    ${h9}+${adjOriginY}
+alias y10   ${h10}+${adjOriginY}
