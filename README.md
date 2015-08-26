@@ -1,5 +1,5 @@
 # AC Slater :muscle:
-A hunky, extensible default setup for the keyboard-driven, tiling window manager [Slate](https://github.com/mattr-/slate), based on https://github.com/n1rvana/dot-slate.
+A hunky, extensible layout for the tiling window manager [Slate](https://github.com/mattr-/slate), with a set of spacially-intuitive key bindings. Based on the work done in https://github.com/n1rvana/dot-slate.
 
 Throw windows around with ease to make tiled layouts such as:
 
