@@ -1,0 +1,19 @@
+# Sets up screen and layout sizes based on a hidden dock to the left
+# Hidden dock is 4px on Yosemite
+alias acOX screenOriginX-4
+alias acSX   screenSizeX+4
+alias acOY screenOriginY
+alias acSY   screenSizeY
+
+alias 1c   (screenSizeX+4)*1/12
+alias 2c   (screenSizeX+4)*2/12
+alias 3c   (screenSizeX+4)*3/12
+alias 4c   (screenSizeX+4)*4/12
+alias 5c   (screenSizeX+4)*5/12
+alias 6c   (screenSizeX+4)*6/12
+alias 7c   (screenSizeX+4)*7/12
+alias 8c   (screenSizeX+4)*8/12
+alias 9c   (screenSizeX+4)*9/12
+alias 10c  (screenSizeX+4)*10/12
+alias 11c  (screenSizeX+4)*11/12
+alias 12c  (screenSizeX+4)*12/12
