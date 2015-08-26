@@ -1,4 +1,4 @@
-# AC Slater :muscle:
+# AC Slater
 A hunky, extensible layout for the tiling window manager [Slate](https://github.com/mattr-/slate), with a set of spacially-intuitive key bindings. Based on the work done in https://github.com/n1rvana/dot-slate.
 
 Throw windows around with ease to make tiled layouts such as:
@@ -132,9 +132,9 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
         +-----------+-----------+-----------+-----------+-----------+
 ```
 
-### Extending
+## Extending/Configuration
 
-Relax, preppy. AC Slater is broken up into separate parts so you can extend it. Here's the default `.slate` file:
+Relax, preppy. AC Slater is broken up into separate configurable parts so you can extend it. The only thing you'll have to copy and modify is the default `.slate` file:
 
 ```shell
 # Set PATH_TO_AC_SLATER to wherever you cloned ac-slater
@@ -157,3 +157,7 @@ source ${ac-slater-path}/bindings.slate
 # Post-AC custom config here, ex:
 # bind 4:ctrl hint ARSTDHNEIO
 ```
+
+## Contributing & Feedback
+
+Pull requests and issues are welcome.
