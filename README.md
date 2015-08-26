@@ -44,7 +44,7 @@ Install Slate as per [instructions](https://github.com/mattr-/slate#installing-s
 
 ## Layout
 
-Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/1 (full height) or 1/2.
+Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/1 (full height) or 1/2 and are arranged on the right hand side of the keyboard in an intutive fashion.
 
 **Size definitions**  
 
@@ -75,7 +75,7 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
 `ctrl+shift+J` would make the current window half width, placed in the upper left corner  
 `ctrl+alt+shift+J` would make the current window 2/3s width, placed in the upper left corner
 
-### QWERTY Layout
+### QWERTY Keyboard Layout
 ```
 +-----------+-----------+-----------+-----------+-----------+
 |           |           |           |           |           |
@@ -103,7 +103,7 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
         |           |           |           |           |           |
         +-----------+-----------+-----------+-----------+-----------+
 ```
-### Colemak Layout
+### Colemak Keyboard Layout
 ```
 +-----------+-----------+-----------+-----------+-----------+
 |           |           |           |           |           |
