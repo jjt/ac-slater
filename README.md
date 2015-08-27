@@ -137,6 +137,7 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
 Relax, preppy. AC Slater is broken up into separate configurable parts so you can extend it. The only thing you'll have to copy and modify is the default `.slate` file:
 
 ```shell
+# Copy this file into ~/.slate and modify to your heart's content
 # Set PATH_TO_AC_SLATER to wherever you cloned ac-slater
 alias ac-slater-path PATH_TO_AC_SLATER
 
@@ -151,8 +152,12 @@ alias ac-slater-key-modifier-super  shift;ctrl;alt
 # Bring AC Slater to the party
 # Comment out any parts that you don't want
 source ${ac-slater-path}/config.slate
+source ${ac-slater-path}/origin.slate
+source ${ac-slater-path}/positioning.slate
 source ${ac-slater-path}/layout.slate
 source ${ac-slater-path}/bindings.slate
+# Colemak user? Gotcha covered:
+# source ${ac-slater-path}/bindings-colemak.slate
 
 # Post-AC custom config here, ex:
 # bind 4:ctrl hint ARSTDHNEIO
