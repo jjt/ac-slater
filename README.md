@@ -126,8 +126,8 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
 
 AC Slater is based on a 12-column, 12-row grid, and defines position and size aliases relative to the screen.
 
-`x0`-`x10` define x coordinates in 1/12th increments  
-`y0`-`y10` define y coordinates in 1/12th increments  
+`x0`-`x11` define x coordinates in 1/12th increments  
+`y0`-`y11` define y coordinates in 1/12th increments  
 `w1`-`w12` define widths in 1/12th increments  
 `h1`-`h12` define heights in 1/12th increments  
 

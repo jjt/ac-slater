@@ -14,9 +14,10 @@ alias ac-slater-key-modifier-super  shift;ctrl;alt
 # Comment out any parts that you don't want
 source ${ac-slater-path}/config.slate
 source ${ac-slater-path}/origin.slate
-source ${ac-slater-path}/positioning.slate
+source ${ac-slater-path}/grid.slate
 source ${ac-slater-path}/layout.slate
 source ${ac-slater-path}/bindings.slate
+
 # Colemak user? Gotcha covered:
 # source ${ac-slater-path}/bindings-colemak.slate
 

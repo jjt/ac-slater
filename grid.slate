@@ -38,6 +38,7 @@ alias x7    ${w7}+${adjOriginX}
 alias x8    ${w8}+${adjOriginX}
 alias x9    ${w9}+${adjOriginX}
 alias x10   ${w10}+${adjOriginX}
+alias x11   ${w11}+${adjOriginX}
 
 # Y position
 alias y0    ${adjOriginY}
@@ -51,3 +52,4 @@ alias y7    ${h7}+${adjOriginY}
 alias y8    ${h8}+${adjOriginY}
 alias y9    ${h9}+${adjOriginY}
 alias y10   ${h10}+${adjOriginY}
+alias y11   ${h11}+${adjOriginY}
