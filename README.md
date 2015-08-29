@@ -47,7 +47,7 @@ Install Slate as per [instructions](https://github.com/mattr-/slate#installing-s
 
 Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/1 (full height) or 1/2 and are arranged on the right hand side of the keyboard in an intutive fashion.
 
-**Size definitions**  
+**Legend**  
 
 `1/1`, `1/2`, `1/3`, `2/3`: width in percentages of screen  
 `F`: full screen  
@@ -60,8 +60,9 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
 `BL`: bottom left  
 `BM`: bottom middle  
 `BR`: bottom right  
+`TOP/BTM/RGT/LFT SCR`: Move window to that screen
 
-**Legend**  
+**Example**  
 ```
 +-----------+
 |  2/3  TL  |  <----- layout for super key modifier (default: ctrl+alt+shift)
