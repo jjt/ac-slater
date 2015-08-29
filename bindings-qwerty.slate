@@ -1,5 +1,12 @@
 # QWERTY bindings
 
+# Throw to different screens
+# Assumes that your top or left screen is the primary
+bind i:${ac-slater-key-modifier-super} throw 0
+bind ,:${ac-slater-key-modifier-super} throw 1
+bind j:${ac-slater-key-modifier-super} throw 0
+bind l:${ac-slater-key-modifier-super} throw 1
+
 # Full screen
 bind f:${ac-slater-key-modifier} ${0,0-12,12}
 
