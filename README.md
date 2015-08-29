@@ -147,6 +147,7 @@ Relax, preppy. AC Slater is broken up into separate configurable parts so you ca
 
 ```shell
 # Copy this file into ~/.slate and modify to your heart's content
+
 # Set PATH_TO_AC_SLATER to wherever you cloned ac-slater
 alias ac-slater-path PATH_TO_AC_SLATER
 
@@ -162,9 +163,10 @@ alias ac-slater-key-modifier-super  shift;ctrl;alt
 # Comment out any parts that you don't want
 source ${ac-slater-path}/config.slate
 source ${ac-slater-path}/origin.slate
-source ${ac-slater-path}/positioning.slate
+source ${ac-slater-path}/grid.slate
 source ${ac-slater-path}/layout.slate
 source ${ac-slater-path}/bindings.slate
+
 # Colemak user? Gotcha covered:
 # source ${ac-slater-path}/bindings-colemak.slate
 

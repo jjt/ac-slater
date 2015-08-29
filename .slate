@@ -1,4 +1,5 @@
 # Copy this file into ~/.slate and modify to your heart's content
+
 # Set PATH_TO_AC_SLATER to wherever you cloned ac-slater
 alias ac-slater-path PATH_TO_AC_SLATER
 
