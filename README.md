@@ -1,6 +1,8 @@
 # AC Slater
 A hunky, extensible layout for the tiling window manager [Slate](https://github.com/mattr-/slate), with a set of spacially-intuitive key bindings. Based on the work done in https://github.com/n1rvana/dot-slate.
 
+![Hunk](http://i.imgur.com/A7P1oA9.jpg)
+
 Throw windows around with ease to make tiled layouts such as:
 
 ```
