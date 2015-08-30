@@ -52,6 +52,8 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
 **Legend**  
 
 `1/1`, `1/2`, `1/3`, `2/3`: width in percentages of screen  
+`TOP/BTM/RGT/LFT SCR`: move window to that screen  
+
 `F`: full screen  
 `L`: left (full height)  
 `M`: middle (full height)  
@@ -62,7 +64,6 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
 `BL`: bottom left  
 `BM`: bottom middle  
 `BR`: bottom right  
-`TOP/BTM/RGT/LFT SCR`: Move window to that screen
 
 **Example**  
 ```

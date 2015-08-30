@@ -20,7 +20,7 @@
 #             |  1/2  BL  |  1/3  BL  |  1/3  BM  |  1/3  BR  |  1/2  BR  |
 #             +-----------+-----------+-----------+-----------+-----------+
 #
-#                TOP/BTM/RGT/LFT SCR:  Move window to that screen
+#                TOP/BTM/RGT/LFT SCR:  move window to that screen
 #                1/1, 1/2, 1/3, 2/3:   width in percentages of screen
 #
 #                F:   full screen
