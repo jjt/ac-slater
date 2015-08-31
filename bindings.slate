@@ -1,2 +1,2 @@
 # Default to QWERTY
-source ./bindings-qwerty.slate
+source ${ac-slater-path}/bindings-qwerty.slate
