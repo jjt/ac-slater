@@ -45,7 +45,26 @@ Install Slate as per [instructions](https://github.com/mattr-/slate#installing-s
     > # edit ~/.slate to your liking, set the path to ac-slater
     > # restart Slate and reload config
 
-## Layout
+## Grid system
+
+AC Slater is based on a 12-column, 12-row grid, and defines position and size aliases relative to the screen.
+
+`x0`-`x11` define x coordinates in 1/12th increments  
+`y0`-`y11` define y coordinates in 1/12th increments  
+`w1`-`w12` define widths in 1/12th increments  
+`h1`-`h12` define heights in 1/12th increments  
+
+This makes it trivial to set up your own operations, like `move`:
+
+```shell
+# Moves a window to take up the lower left quarter of the screen
+move ${x0};${y6} ${w6};${h6}
+
+# Centers a window, and makes it 2/3 screen width, full screen height
+move ${x2};${y0} ${w8};${h12}
+```
+
+## Default Layout
 
 Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/1 (full height) or 1/2 and are arranged on the right hand side of the keyboard in an intutive fashion.
 
@@ -123,24 +142,6 @@ Default bindings use widths of 1/1 (full width), 1/2, 1/3, 2/3 and heights of 1/
         +-----------+-----------+-----------+-----------+-----------+
 ```
 
-## Grid system
-
-AC Slater is based on a 12-column, 12-row grid, and defines position and size aliases relative to the screen.
-
-`x0`-`x11` define x coordinates in 1/12th increments  
-`y0`-`y11` define y coordinates in 1/12th increments  
-`w1`-`w12` define widths in 1/12th increments  
-`h1`-`h12` define heights in 1/12th increments  
-
-This makes it trivial to set up your own operations, like `move`:
-
-```shell
-# Moves a window to take up the lower left quarter of the screen
-move ${x0};${y6} ${w6};${h6}
-
-# Centers a window, and makes it 2/3 screen width, full screen height
-move ${x2};${y0} ${w8};${h12}
-```
 
 ## Extending/Configuration
 
